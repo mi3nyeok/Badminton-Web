@@ -205,3 +205,4 @@ if st.session_state.admin_mode and st.session_state.show_suggestions and st.sess
     st.markdown("---")
     st.subheader("👀 제출된 건의사항")
     st.dataframe(pd.DataFrame(st.session_state.suggestions), use_container_width=True)
+    최민혁
